@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="playground">
+      <div class="playground__player-1 player--selected">
+        <div class="player__status">
+          <h2 class="winner-title-1">Winner..!</h2>
+          <h3 class="player__status-name">Player 1</h3>
+          <h3 class="player__status-score" id="player-1-status">0</h3>
+        </div>
+        <div class="current__score">
+          <h5 class="current__score-heading">Current</h5>
+          <h5 class="current__score-number" id="player-1-current">0</h5>
+        </div>
+      </div>
+      <div class="playground__player-2">
+        <div class="player__status">
+          <h2 class="winner-title-2">Winner..!</h2>
+          <h3 class="player__status-name">Player 2</h3>
+          <h3 class="player__status-score" id="player-2-status">0</h3>
+        </div>
+        <div class="current__score">
+          <h5 class="current__score-heading">Current</h5>
+          <h5 class="current__score-number" id="player-2-current">0</h5>
+        </div>
+      </div>
+      <span class="btn btn-white btn-new">New Game</span>
+      <span class="btn btn-white btn-roll">Roll Dice</span>
+      <span class="btn btn-white btn-hold">Hold</span>
+      <img src="img/dice-1.png" alt="Dice" class="dice" />
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
