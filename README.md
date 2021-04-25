@@ -5,7 +5,7 @@ This has simple rules as follows.
 - If the number on dice comes `1` then the player control will be swapped.
 - The player who scores more than `50` points as main score will win the game.
 
-The Game is available on : https://siddheshhirulkar.github.io/csb-i9e8x/
+The Game is available on : https://siddheshhirulkar.github.io/Dice--Game/
 
 ### About Game
 This game is made by using HTML, CSS and JavaScipt.
